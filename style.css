@@ -1,0 +1,304 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    border-radius: 20px;
+    justify-content: end;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+.banner {
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+
+
+/*.header-section {
+    margin: 5% 4%;
+}*/
+
+
+.header-text {
+    font-weight: 1200;
+    color: white;
+    margin-top: 10%;
+    margin-left: 8%;
+    line-height: 0.1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-para {
+    color: white;
+    font-weight: 100;
+    margin-left: 8%;
+}
+
+.header-button {
+    background-color: #f11616;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+    gap: 2%;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    max-width: 80%;
+}
+
+.blog {
+    border: 0.5px solid rgb(233, 220, 220);
+    display: block;
+    border-radius: 15px;
+    width: 93%;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.side-button {
+    position: absolute;
+    left: 40px;
+    top: 575px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    background-color: black;
+    padding: 2%;
+    border-radius: 8px;
+    margin-left: 4%;
+
+}
+
+.side-button1 {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+.side-button :hover {
+    background-color: rgb(255, 60, 0);
+}
+
+.side-button2 {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+.side-button3 {
+    background-color: #f11616;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+.blog-items {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 5%;
+}
+
+.chat-icon {
+    align-items: center;
+}
+
+.transfer {
+    padding-left: 5%;
+
+}
+
+.transfer1 {
+    border: 1px solid black;
+    color: #000;
+    background: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5% 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.para {
+    padding-left: 5%;
+}
+
+.footer {
+    max-width: 100%;
+    margin-top: 1200px;
+    height: 300px;
+    background-color: rgb(30, 26, 28);
+}
+
+.footer p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 1%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    border-color: rgb(230, 230, 230);
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.contact-us,
+.policy,
+.set,
+.ts,
+.live,
+.apps {
+    padding-right: 25px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.line {
+    max-width: 75%;
+    background-color: #f4f5f0;
+
+    height: .5px;
+    opacity: .5;
+
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 30px;
+}
+
+.social-links {
+    max-width: 60%;
+    margin-left: 45%;
+    margin-right: 40%;
+}
+
+.social-links a {
+
+    display: inline-block;
+    color: #ffffff;
+    padding: 5%;
+
+
+}
+
+/* ---------------------------------------------------------------------------
+---------------------------for mobile-----------------------------------------
+------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 676px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .side-button {
+        /* display: flex; */
+        margin: 100px;
+        margin-top: 220px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        position: relative;
+
+
+    }
+
+    .side-button {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* .blog {
+
+        min-width: 100%;
+
+
+    } */
+
+
+
+}
+
+/* ---------------------------------------------------------------------------
+---------------------------for tablet-----------------------------------------
+------------------------------------------------------------------------------ */
+
+@media screen and (min-width: 677px) and (max-width:1023px) {
+    .side-button {
+        display: flex;
+        margin: 50px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .side-button {
+        background-color: white;
+    }
+
+}
